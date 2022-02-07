@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-size: 100%;
+	text-align: center;
+}
+
+p{
+	margin: 5px;
+	font-size: 19px;
+}
+
+
+.quadro {
+	flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+	margin-top: 5%;
+
+}
+
+.container{
+	width: 450px;
+	height: 570px;
+	margin: 20px;
+	background: white;
+	border-radius: 10px;
+	opacity: 0.9;
+}
+
+.poster{
+	border-radius: 10px;
+	width: 400px;
+	height: 250px;
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+/*Informações App*/ 
+
+
+input {
+	width: 380px;
+	height: 50px;
+	background-color: #cccccc;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.container-app{
+	text-align: center;
+}
+
+.nomeapp{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.descricaoApp1{
+	font-size: 22px;
+	font-weight: bolder;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+}
+
+.descricaoApp2{
+	font-size: 20px;
+	margin: 30px;
+	text-align: justify;
+}
+
+.input_div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+.buscarBt{
+	width: 380px;
+	height: 50px;
+	background-color: #cf161d;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-top: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+/* informações filmes*/
+
+.poster{
+	border-radius: 10px;
+	width: 400px;
+	height: 250px;
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+
+}
+
+.titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	margin-top: 5px;
+}
+
+.informacao-parte1{
+	text-align: center;
+}
+
+.informacao-parte2{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.detalhes {
+	flex-direction: row;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#sinopse{
+	text-align: justify;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+.mensagemErro{
+	color: red;
+}
+

@@ -1,0 +1,109 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+div {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+}
+
+.Perfil{
+  border-radius: 3px;
+  background-color: #e8e8e8;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#ImagemPerfil{
+  clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+
+.presentation {
+  box-shadow: 5px 5px 13px 3px rgba(0,0,0,0.35);
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+h2, h3, p{
+  padding-top: 10px;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+
+h2{
+  color: #333333;
+  margin-top: 10px;
+}
+
+hr{
+  color: #e8e8e8;
+  height: 3px;
+}
+
+h3{
+  color: rgb(187, 187, 233);
+}
+
+
+a.Button{
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+#Github{
+  background-color: #333333;
+}
+
+#Github:hover{
+  background-color: #4b4b55;
+}
+
+#Linkedin{
+  background-color: #1c3166;
+}
+
+#Linkedin:hover {
+  background-color: #00a9d4;
+}
+
+
+#Youtube{
+  background-color: #990100;
+}
+
+#Youtube:hover{
+  background-color: #b90504;
+}
+
+
+
+
+
+
+
+
+
+
+

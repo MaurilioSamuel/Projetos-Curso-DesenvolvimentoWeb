@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', san-serif;
+}
+
+body{
+	width: 100%;
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+
+	background-image: linear-gradient(225deg, #5e9dff 0, #386dbd 50%, #164075 100%);
+	background-repeat: no-repeat;
+}
+
+div.container{
+	width: 100%;
+	max-width: 450px;
+	border-radius: 25px;
+	padding: 15px 3%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	background-color: white;
+}
+
+
+div.container h1{
+	width: 100%;
+	padding: 5px;
+	font-size: 20px;
+	text-align: center;
+
+	color: #59a0ae;
+}
+
+div.container input{
+	width: 100%;
+	max-width: 45px;
+	padding: 5px 0;
+	outline: 0;
+	text-align: center;
+
+	border: 1px solid rgba(89,160,174,0.36);
+	border-radius: 5px;
+}
+
+div.container select{
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px 5px;
+	cursor: pointer;
+
+	border: 1px solid rgba(89,160,174,0.36);
+}
+
+
+div.container input:hover{
+	box-shadow: 5px 4px 23px 3px rgba(89,160,174,0.36);
+}
+
+div.container select:hover{
+	box-shadow: 5px 4px 23px 3px rgba(89,160,174,0.36);
+}
+
+
+div.tabuada{
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	line-height: 32px;
+	margin: 15px 0;
+
+	border-radius: 5px;
+	border: 1px solid rgba(89,160,174,0.36);
+}
+
+div.container button{
+	padding: 10px 15px;
+	border: 0;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	line-height: 10px;
+	color: white;
+
+	background-color: #72b8c7;
+}
+
+
+div.container input::-webkit-inner-spin-button{
+	display: none;
+}
+
+
